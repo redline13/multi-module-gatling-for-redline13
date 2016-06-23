@@ -1,0 +1,20 @@
+{
+  "durationInSeconds":120,
+  "scenarios":[
+    {"scenario":"com.oricohen.gatlingforredline13.scenarios.Scenario1",
+     "run":true,
+     "delayStartInSec":0,
+     "users":1,
+     "rampTimeInSec":1},
+    {"scenario":"com.oricohen.gatlingforredline13.scenarios.Scenario2",
+     "run":false,
+     "delayStartInSec":0,
+     "users":1,
+     "rampTimeInSec":1},
+    {"scenario":"com.oricohen.gatlingforredline13.scenarios.Scenario3",
+     "run":false,
+     "delayStartInSec":0,
+     "users":1,
+     "rampTimeInSec":1}
+  ]
+}
