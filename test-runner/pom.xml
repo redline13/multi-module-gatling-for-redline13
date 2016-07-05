@@ -149,8 +149,9 @@
                             </jvmArgs>
                             <configFolder>src/test/resources</configFolder>
                             <dataFolder>src/test/resources/data</dataFolder>
-                            <resultsFolder>target/gatling/results</resultsFolder>
-                            <simulationsFolder>src/test/scala/com/liveperson/gatlingsimulation/simulations</simulationsFolder>
+                            <noReports>true</noReports>
+                            <resultsFolder>${project.basedir}/../output</resultsFolder>
+                            <simulationsFolder>src/test/scala/com/oricohen/gatlingforredline13/simulations</simulationsFolder>
                         </configuration>
                     </execution>
                 </executions>
